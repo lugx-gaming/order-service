@@ -1,0 +1,13 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api/order-service
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://bovindya20:YBaFMnIEg07ApwkK@lugx.xkojypl.mongodb.net/luxg
+
+
+
+
