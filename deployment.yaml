@@ -38,18 +38,7 @@ spec:
               memory: "200Mi"
               cpu: "200m"
             limits:
-              memory: "300Mi"
-              cpu: "300m"
-          readinessProbe:
-            httpGet:
-              port: 8080
-              path: /api/order-service/actuator/health
-            initialDelaySeconds: 40
-            periodSeconds: 10
-          livenessProbe:
-            httpGet:
-              port: 8080
-              path: /api/order-service/actuator/health
-            initialDelaySeconds: 40
-            periodSeconds: 10
+              memory: "400Mi"
+              cpu: "400m"
+
 
